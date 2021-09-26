@@ -8,6 +8,7 @@ public class DictionaryManagement {
     public Dictionary insertFromCommandline() {
         Dictionary dictionary = new Dictionary();
         Scanner sc = new Scanner(System.in);
+        System.out.print("Số từ bạn muốn nhập: ");
         int n = sc.nextInt();
         sc.nextLine();
         for (int i = 0; i < n; i++) {

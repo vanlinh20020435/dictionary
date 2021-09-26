@@ -13,9 +13,9 @@ public class DictionaryCommandline {
             dictionaryManagement.loadFromFile();                     //kiểm tra xem đã tải từ điển hay chưa.
         }
         List<Word> library = dictionaryManagement.getDictionary().getLibrary();
-        System.out.println("No\t| English\t\t| Vietnamese");
+        System.out.format("%-5s %-2s %-15s %2s %-15s\n", "NO", "|", "English","|", "Vietnamese");
         for (int i = 0; i < library.size(); i++) {
-            System.out.println((i + 1) + "\t| " + library.get(i).getWord_target() + "\t\t\t| " + library.get(i).getWord_explain());
+            System.out.format("%-5s %-2s %-15s %2s %-15s\n", (i + 1), "|", library.get(i).getWord_target(),"|", library.get(i).getWord_explain());
         }
     }
 

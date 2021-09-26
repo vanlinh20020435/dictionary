@@ -1,3 +1,6 @@
 hello	chao
-hell   dia nguc
-help  giup do
+hell	dia nguc
+help	giup do
+hell	dia nguc
+dog	con cho
+cat     con meo

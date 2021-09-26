@@ -24,6 +24,7 @@ public class DictionaryManagement {
      */
     public void insertFromCommandline() {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Số từ bạn muốn nhập: ");
         int n = sc.nextInt();
         sc.nextLine();
         for (int i = 0; i < n; i++) {
@@ -46,7 +47,7 @@ public class DictionaryManagement {
             outputStream = new FileOutputStream(file, true);
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(outputStream);
             Scanner sc = new Scanner(System.in);
-            System.out.println("Số từ bạn muốn nhập: ");
+            System.out.print("Số từ bạn muốn nhập: ");
             int n = sc.nextInt();
             sc.nextLine();
             for (int i = 0; i < n; i++) {
