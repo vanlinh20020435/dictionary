@@ -1,5 +1,3 @@
-play	choi
-hello	xin chao
-house	ngoi nha
-dog	con cho
-cat	con meo
+hello	chao
+hell   dia nguc
+help  giup do

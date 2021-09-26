@@ -29,6 +29,6 @@ public class DictionaryCommandline {
         showAllWords();
         int index = dictionaryManagement.dictionaryLookup("hello");
         Word word = dictionaryManagement.getDictionary().getLibrary().get(index);
-        System.out.println(word.getWord_target() + " is: ");
+        System.out.println(word.getWord_target() + " is: "+word.getWord_explain());
     }
 }
