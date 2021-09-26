@@ -12,4 +12,11 @@ public class Dictionary {
     public void addWord(Word word) {
         library.add(word);
     }
+    public void removeWord(int index) {
+        library.remove(index);
+    }
+
+    public void editWord(int index,Word word){
+        library.set(index,word);
+    }
 }

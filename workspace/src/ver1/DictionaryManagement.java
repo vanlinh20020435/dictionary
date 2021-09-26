@@ -1,6 +1,7 @@
 package ver1;
 
-import java.util.Scanner;
+import java.util.*;
+import java.io.*;
 
 public class DictionaryManagement {
     //Thêm từ mới
@@ -17,3 +18,4 @@ public class DictionaryManagement {
         return dictionary;
     }
 }
+
